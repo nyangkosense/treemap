@@ -1,19 +1,18 @@
-treemap - directory tree with sizes
-====================================
+# treemap - directory tree with sizes
+
+![treemap screenshot](img/img.png)
 
 treemap recursively lists directory contents as a tree with
 human-readable file sizes (B/KB/MB/GB). Optionally generates
 an HTML page with an SVG pie chart.
 
 
-Dependencies
-------------
+## Dependencies
 
 None.
 
 
-Building
---------
+## Building
 
 Requires zig 0.15+. Adjust the path to your zig binary:
 
@@ -36,8 +35,7 @@ To run tests:
 	$ ./zig-x86_64-linux-0.15.2/zig test src/main.zig
 
 
-Usage
------
+## Usage
 
 	treemap [--html] [--help] [path]
 
@@ -47,7 +45,6 @@ With --html, writes treemap.html in the current directory
 containing a pie chart and nested tree view.
 
 
-License
--------
+## License
 
 MIT
